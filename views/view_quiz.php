@@ -1,6 +1,6 @@
 <?php require ('views/template.php'); ?>
 
-<?php $title = 'Quiz'; ?>
+<?php $title = 'Mon blog'; ?>
 
 
 
