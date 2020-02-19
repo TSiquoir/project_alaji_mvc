@@ -1,8 +1,8 @@
 <?php
-
+//Connexion à la base de donnée.
 function getQuizzes()
 {
-   
+    // envoie une erreur en cas d'échec, cela évite que le mot de passe soit visible.
     try 
     {
 
