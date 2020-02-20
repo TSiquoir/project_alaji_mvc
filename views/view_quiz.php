@@ -1,27 +1,15 @@
-<?php require ('views/template.php'); ?>
+<?php require ('views/header.php'); ?>
 
-<?php $title = 'Mon blog'; ?>
-
-
-
-<table class="table table-striped">
-  <tbody>
-  <tr>
-      <th scope="row">1</th>
-      <td class="text-left">Mark</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Mark</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Jacob</td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td>Larry</td>
-    </tr>
-  </tbody>
-</table>
-
+<div class="container">
+  <table class="table table-striped">
+    <tbody>
+    <?php foreach ($quizzes as $quiz) { ?>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <tr>
+          <td class="text-left"><?= $quiz['name'] ?></td>
+        </tr>
+      </a>  
+    <?php } ?>
+    </tbody>
+  </table>
+</div>
