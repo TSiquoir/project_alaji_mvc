@@ -4,11 +4,10 @@
   <table class="table table-striped">
     <tbody>
     <?php foreach ($quizzes as $quiz) { ?>
-      <a href="http://" target="_blank" rel="noopener noreferrer">
         <tr>
-          <td class="text-left"><?= $quiz['name'] ?></td>
+        <a href="http://" target="_blank" rel="noopener noreferrer"><td class="text-left"><?= $quiz['name'] ?></td> </a> 
         </tr>
-      </a>  
+      
     <?php } ?>
     </tbody>
   </table>

@@ -9,7 +9,8 @@ if ($route === "quizzes") {
     require_once('controllers/quizzes.php');
     listQuizzes();
 } elseif ($route === "candidats") {
-    echo 'je suis sur la route candidats';
+    require_once('controllers/students.php');
+    listStudents();
 } else {
     echo "je suis sur la page d'accueil";
 }

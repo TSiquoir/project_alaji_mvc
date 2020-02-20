@@ -1,3 +1,30 @@
 header {
     margin-bottom: 40px;
 }
+
+.student_card {
+    margin-top: 40px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background: rgb(255, 255, 255);
+    border: solid gray;
+}
+
+.mail_row {
+margin-right: auto;
+}
+
+.mail {
+background-color: rgb(131, 131, 131);
+font-size: medium;
+}
+
+.full_name {
+background-color: rgb(197, 197, 197);
+height: 50px;
+font-size: large;
+}

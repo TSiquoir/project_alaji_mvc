@@ -6,8 +6,5 @@ function listQuizzes()
 {
     $quizzes = getQuizzes();
 
-
-    require('views/view_quiz.php');
-
-    
+    require('views/view_quizzes.php');
 }
