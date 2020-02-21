@@ -1,6 +1,6 @@
 <?php
 //Récupère ce qu'il y a dans l'url pour indentifier la page.
-$params = explode("/", $_SERVER['REQUEST_URI']);
+$params = explode("/", strtok($_SERVER["REQUEST_URI"],'?'));
 array_shift($params);
 
 $route = $params[1];

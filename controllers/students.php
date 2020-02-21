@@ -1,5 +1,6 @@
 <?php
 
+require_once('models/quizzes.php');
 require_once('models/students.php');
 
 function listStudents()
@@ -7,3 +8,4 @@ function listStudents()
     $students = getStudents();
     require('views/view_students.php');
 }
+

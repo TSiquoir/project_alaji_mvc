@@ -5,7 +5,11 @@
     <tbody>
     <?php foreach ($quizzes as $quiz) { ?>
         <tr>
-        <a href="http://" target="_blank" rel="noopener noreferrer"><td class="text-left"><?= $quiz['name'] ?></td> </a> 
+          <td class="text-left">
+            <a href="candidats?idquiz=<?php echo $quiz['id']; ?>" rel="noopener noreferrer">
+              <?= $quiz['name'] ?>
+            </a>
+          </td> 
         </tr>
       
     <?php } ?>

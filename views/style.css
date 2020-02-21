@@ -16,6 +16,7 @@ header {
 
 .mail_row {
 margin-right: auto;
+margin-left: auto;
 }
 
 .mail {
@@ -23,8 +24,9 @@ background-color: rgb(131, 131, 131);
 font-size: medium;
 }
 
+
 .full_name {
 background-color: rgb(197, 197, 197);
-height: 50px;
+height: 70px;
 font-size: large;
 }
